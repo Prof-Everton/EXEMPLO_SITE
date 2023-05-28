@@ -1,0 +1,77 @@
+.titulo{
+    font-family: 'pacifico', cursive ;
+    margin: 20px;
+    color: #ff642c;
+    background-color: #fad6cd;
+    border-radius: 50px;
+}
+
+body{
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    float: left;
+    background-color: #ff642c;
+    width: 450px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: #fad6cd;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff ;
+}
+
+#locais{
+    padding-top: 200px;
+}
+
+#carouselExampleAutoplaying img{
+    height: 500px;
+    width: 1000px;
+    object-fit: contain;
+}
+
+.card-group{
+    margin: 50px 20px 30px 20px;
+}
+
+.botao{
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.botao a{
+    background-color: #ff642c;
+    font-size: 50px;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'pacifico', cursive;
+}
+
+.botao a:hover{
+    color: #000;
+}
+
+footer{
+    background-color: #fad6cd;
+    color: black;
+
+}
